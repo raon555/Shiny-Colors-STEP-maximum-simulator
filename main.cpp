@@ -52,14 +52,14 @@ int main(void) {
 		required_point(status_count, requrired_status_point, requrired_status_danketsuryoku_point, &status_count, &requrired_status_point, &requrired_status_danketsuryoku_point);
 		required_point(status_limit_count, requrired_limit_point, requrired_limit_danketsuryoku_point, &status_limit_count, &requrired_limit_point, &requrired_limit_danketsuryoku_point);
 		//printf("テスト表示%d %d %d %d %d %d\n",status_count, requrired_status_point, requrired_status_danketsuryoku_point, status_limit_count, requrired_limit_point, requrired_limit_danketsuryoku_point);
-		if (((status + 10) <= status_limit) && ((jukurendo - requrired_status_point) >= 0) && ((danketsuryoku - requrired_status_danketsuryoku_point) >= 0)) {
+		if (((status + 10) <= status_limit) && ((jukurendo - requrired_status_point) >= 0) && ((danketsuryoku - requrired_status_danketsuryoku_point) >= 0) && (status_count < 230)) {
 			//puts("テスト分岐1\n");
 			status = status + 10;
 			jukurendo = jukurendo - requrired_status_point;
 			danketsuryoku = danketsuryoku - requrired_status_danketsuryoku_point;
 			status_count++;
 		}
-		else if (((jukurendo - requrired_limit_point) >= 0) && ((danketsuryoku - requrired_limit_danketsuryoku_point) >= 0) && (status_count < 230)) {
+		else if (((jukurendo - requrired_limit_point) >= 0) && ((danketsuryoku - requrired_limit_danketsuryoku_point) >= 0) && (status_limit_count < 140)) {
 			//puts("テスト分岐2\n");
 			status_limit = status_limit + 10;
 			jukurendo = jukurendo - requrired_limit_point;
