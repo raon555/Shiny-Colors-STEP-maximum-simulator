@@ -1,7 +1,11 @@
 # Shiny-Colors-STEP-maximum-simulator
 シャニマスのSTEPシナリオにおいて、特化パラメータの最大値を試算するためのシミュレータです。
 
-セキュリティの観点上、exeファイルは置いていません。各々でソースコードを確認したうえでCコンパイルを行い、exeファイルを生成してください。(セキュリティを意識するなら_CRT_SECURE_NO_WARNINGSを使うなって話ですが)
+セキュリティの観点上、exeファイルは置いていません。各々でソースコードを確認したうえでC++コンパイルを行い、exeファイルを生成してください。(セキュリティを意識するなら_CRT_SECURE_NO_WARNINGSを使うなって話ですが)
+
+# 注意点
+- 各種アイドルの上限パネル等は未考慮です。残り団結力が分かるようになっているので、なんかいい感じに調整してください。
+
 # 使用例
 ![image](https://user-images.githubusercontent.com/80242944/167307940-063acd27-8164-490d-9aaa-d601db909f12.png)
 ![image](https://user-images.githubusercontent.com/80242944/167307944-f376a755-37ad-4a8e-98bb-d76c3a10fd0b.png)
