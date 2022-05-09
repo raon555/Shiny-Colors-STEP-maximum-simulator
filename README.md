@@ -15,8 +15,8 @@
 ![image](https://user-images.githubusercontent.com/80242944/167307940-063acd27-8164-490d-9aaa-d601db909f12.png)
 ![image](https://user-images.githubusercontent.com/80242944/167307944-f376a755-37ad-4a8e-98bb-d76c3a10fd0b.png)
 
-![image](https://user-images.githubusercontent.com/80242944/167307950-5e38ceb7-4f0b-4211-b7aa-49fd75fb0377.png)
 ![image](https://user-images.githubusercontent.com/80242944/167307953-f4d2bc69-b8ca-467e-8cc2-4cb3be385b1c.png)
+![image](https://user-images.githubusercontent.com/80242944/167307950-5e38ceb7-4f0b-4211-b7aa-49fd75fb0377.png)
 
 
 # 既知のバグ
