@@ -43,9 +43,9 @@ int required_point(int count, int point, int danketsuryoku_point,int *p_count,in
 }
 
 int main(void) {
-	printf("以下の書式で情報を入力してください\n");
-	printf("現在の特化ステータス 現在の特化ステータス上限 特化熟練度 団結力 現在の特化ステータス成長回数 現在の上限成長回数\n\n");
 	while(1){
+		printf("以下の書式で6個のパラメータ情報を入力してください\n");
+		printf("現在の特化ステータス 現在の特化ステータス上限 特化熟練度 団結力 現在の特化ステータス成長回数 現在の上限成長回数\n\n");
 		scanf_s("%d %d %d %d %d %d", &status, &status_limit, &jukurendo, &danketsuryoku, &status_count, &status_limit_count);
 		if ((0 <= status && status <= 5000) && (500 <= status_limit && status_limit <=5000) && (0 <= jukurendo && jukurendo <= 9999) && (0 <= danketsuryoku && danketsuryoku <= 9999)&&(0 <= status_count && status_count <=230) && (0 <= status_limit_count && status_limit_count <= 140)){
 		break;
