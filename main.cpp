@@ -126,7 +126,12 @@ int main(void) {
 		printf("累計特化ステータス成長回数:%d\n", status_count);
 		printf("累計特化上限成長回数:%d\n", status_limit_count);
 		printf("残り熟練度:%d\n", jukurendo);
-		printf("残り団結力:%d\n", danketsuryoku);
+		printf("残り団結力:%d\n\n", danketsuryoku);
+
+		printf("SP変換可能回数:%d\n", danketsuryoku / 30);
+		printf("SP変換値:%d\n", danketsuryoku / 30 * 10);
+		printf("SP変換後残り団結力:%d\n", initial_danketsuryoku - 30 * (danketsuryoku / 30));
+		printf("上記を目安にSPに変換、上限パネルを解放した後もう一度実行してください\n");
 		
 		retry_flag = 0;
 		printf("\n\"1\"かそれ以外の数値を入力してください\n1:もう1回実行する。\nそれ以外の数値:プログラムを終了する。\n");
@@ -135,10 +140,6 @@ int main(void) {
 			break;
 		}
 
-		printf("SP変換可能回数:%d\n",danketsuryoku / 30);
-		printf("SP変換値:%d\n", danketsuryoku / 30*10);
-		printf("SP変換後残り団結力:%d\n", initial_danketsuryoku - 30*(danketsuryoku / 30));
-		printf("上記を目安にSPに変換、上限パネルを解放した後もう一度実行してください\n");
 		puts("--------------------------------------------");
 
 	}
