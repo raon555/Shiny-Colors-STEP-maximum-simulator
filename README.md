@@ -1,3 +1,9 @@
+# 派生リポジトリ
+GUI版を作っていただきました。(製作者ado-shi様)<br>
+CLIにこだわりがない限り、こちらの方が良いと思います。<br>
+https://github.com/raon555/Shiny-Colors-STEP-maximum-simulator/issues/3<br>
+https://github.com/ado-shi/Shiny-Colors-STEP-maximum-simulator/tree/develop_winForm
+
 # Shiny-Colors-STEP-maximum-simulator
 シャニマスのSTEPシナリオにおいて、特化パラメータの最大値を試算するためのシミュレータです。
 
